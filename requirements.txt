@@ -1,0 +1,49 @@
+# 조류 사진 이름 편집기 v1.0 - 필수 의존성
+
+# GUI 프레임워크
+customtkinter>=5.2.0
+
+# 이미지 처리
+Pillow>=9.0.0
+
+# 데이터 처리
+pandas>=1.5.0
+
+# Wikipedia API 연동
+wikipedia-api>=0.6.0
+
+# Word 문서 생성 (선택적 - 리포트 기능용)
+python-docx>=0.8.11
+
+# HTTP 요청 및 SSL 인증서 (Wikipedia API용)
+requests>=2.28.0
+certifi>=2022.12.7
+
+# 날짜/시간 처리 (내장 모듈이지만 명시)
+# datetime (built-in)
+
+# 파일 시스템 작업 (내장 모듈이지만 명시)
+# os (built-in)
+# shutil (built-in)
+
+# 정규표현식 (내장 모듈이지만 명시)
+# re (built-in)
+
+# 멀티스레딩 (내장 모듈이지만 명시)
+# threading (built-in)
+
+# 인코딩/디코딩 (내장 모듈이지만 명시)
+# base64 (built-in)
+# io (built-in)
+
+# 시스템 관련 (내장 모듈이지만 명시)
+# sys (built-in)
+
+# 타입 힌팅 (Python 3.8+에서 내장)
+# typing (built-in in Python 3.8+)
+
+# 함수형 프로그래밍 도구 (내장 모듈이지만 명시)
+# functools (built-in)
+
+# PyInstaller (EXE 빌드용 - 개발 의존성)
+# pyinstaller>=5.10.0
